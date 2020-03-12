@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.wraper ul {
+  background-color: gray;
+  border-radius: 5px;
+  display: flex;
+  list-style: none;
+  height: 50px;
+  width: 60%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main {
+  height: 1000px;
+  width: 100%;
+  background-color: hotpink;
+}
+.hero {
+  padding: 10px;
+  width: 100%;
+  height: 600px;
+  background-color: green;
+  }
