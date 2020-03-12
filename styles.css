@@ -1,11 +1,11 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
 main {
-    /* background-color: hotpink; */
-  }
+  /* background-color: hotpink; */
+}
 
 .wraper {
   width: 100%;
@@ -23,17 +23,18 @@ main {
 
 header {
   display: flex;
-  justify-content: space-around;  
+  justify-content: space-around;
+  margin-top: 60px;
 }
 
 .wraper ul {
   border: 1px solid #504f4f;
-  background-color:#707070;
+  background-color: #707070;
   border-radius: 5px;
   display: flex;
   list-style: none;
   height: 35px;
-  width: 70%;  
+  width: 70%;
   flex-wrap: wrap;
 }
 
@@ -47,8 +48,13 @@ header {
   background: linear-gradient(hsl(0, 0%, 44%) 50%, hsl(0, 0%, 37%) 50%, #666666 50%);
 }
 
+.hero .menu:hover {
+  cursor: pointer;
+  background: linear-gradient(hsl(0, 0%, 25%) 50%, hsl(0, 0%, 25%) 50%, hsl(0, 0%, 25%)50%);
+}
+
 .hero a .fab {
-  font-size: 23px;  
+  font-size: 23px;
 }
 
 ul a {
@@ -58,23 +64,47 @@ ul a {
   font-size: 13px;
 }
 
+.search {
+  padding-left: 20px;
+}
+
+.search #search {
+  padding-left: 20px;
+  width: 100px;
+  margin: 0 10px 0 10px;
+  background-color: hsl(0, 0%, 37%);
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  border-radius: 15px;
+  outline: none;
+}
+
+.search .fa-search {
+  position: relative;
+  margin-right: -30px;
+  color: white;
+  font-size: 13px;
+ }
+
 .hero-txt {
   align-self: center;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 100; 
+  font-weight: 100;
   font-size: 40px;
   text-align: center;
   color: white;
   height: 50%;
   text-decoration: none;
+  margin-bottom: 100px;
 }
 
 .hero-txt #txt-one {
-  font-size: 70px;  
-  }
+  font-size: 70px;
+}
 
 .hero-txt #txt-two {
- font-stretch: normal;
+  font-stretch: normal;
 }
 
 .hero-txt a {
@@ -84,11 +114,20 @@ ul a {
 }
 
 .hero-txt a:hover {
-    text-decoration: underline;    
-  }
+  text-decoration: underline;
+}
 
 .extra-links {
   display: flex;
+  width: auto;
+}
+
+.extra-links .links {
+  width: 25%;
+}
+
+.extra-links .links img {
+  width: 100%;
 }
 
 .footer {
@@ -100,7 +139,7 @@ ul a {
 }
 
 .footer .footer-item {
-    width: 50%;
+  width: 50%;
 }
 
 .footer-item #footer-two {
@@ -120,8 +159,7 @@ ul a {
 }
 
 .footer-item #footer-two {
-  margin-left: 10px;
-  margin: 20px 0 0 10px;
+  margin: 15px 0 0 10px;
 }
 
 .footer-item #footer-three {
