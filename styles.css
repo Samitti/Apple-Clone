@@ -47,6 +47,7 @@ header {
 .hero .menu:hover {
   cursor: pointer;
   background: linear-gradient(hsl(0, 0%, 25%) 50%, hsl(0, 0%, 25%) 50%, hsl(0, 0%, 25%)50%);
+
 }
 
 .hero a .fab {
@@ -109,10 +110,6 @@ ul a {
   font-size: 30px;
 }
 
-.hero-txt a:hover {
-  text-decoration: underline;
-}
-
 .extra-links {
   display: flex;
   width: auto;
@@ -143,6 +140,7 @@ ul a {
   justify-content: space-between;
   width: 70%;
   align-items: center;
+  margin: 15px 0 0 10px;
 }
 
 #footer-two .link {
@@ -154,10 +152,6 @@ ul a {
   margin: 20px 10% 0 25%;
 }
 
-.footer-item #footer-two {
-  margin: 15px 0 0 10px;
-}
-
 .footer-item #footer-three {
   margin: 10px 10% 30px 25%;
 }
@@ -165,4 +159,8 @@ ul a {
 .footer a {
   color: #08c;
   text-decoration: none;
+}
+
+.hero-txt a:hover {
+  text-decoration: underline;
 }
