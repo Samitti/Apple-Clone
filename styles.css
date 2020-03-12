@@ -46,7 +46,7 @@ header {
 
 .hero .menu:hover {
   cursor: pointer;
-  background: linear-gradient(hsl(0, 0%, 25%) 50%, hsl(0, 0%, 25%) 50%, hsl(0, 0%, 25%)50% );
+  background: linear-gradient(hsl(0, 0%, 25%) 50%, hsl(0, 0%, 25%) 50%, hsl(0, 0%, 25%) 50%);
 }
 
 .hero a .fab {
